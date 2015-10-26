@@ -1,0 +1,15 @@
+/* for everything else than input/textarea disable select and callout (callout is not enough for iOS >= 9.0) */
+*:not(input):not(textarea) {
+    /* disable user selection */
+    -webkit-user-select: none;
+    user-select: none;
+
+    /* disable longpress on links */
+    -webkit-touch-callout: none;
+
+    /* disable drag and drop */
+    -webkit-user-drag: none;
+
+    /* transparent highlight color */
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
