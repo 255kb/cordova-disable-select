@@ -16,7 +16,7 @@ meteor add 255kb:cordova-disable-select
 This package will add the following Cordova plugin to disable iOS longpress menu: 
 [https://github.com/EddyVerbruggen/cordova-plugin-ios-longpress-fix](https://github.com/EddyVerbruggen/cordova-plugin-ios-longpress-fix)
 
-It will also add the following CSS to your cordova application (only): 
+It will also add the following CSS to your Cordova application: 
 
     *:not(input):not(textarea) {
         /* disable user selection */
@@ -32,3 +32,7 @@ It will also add the following CSS to your cordova application (only):
         /* transparent highlight color */
         -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     }
+
+## Behavior
+
+- v1.0.1: change CSS to LESS
