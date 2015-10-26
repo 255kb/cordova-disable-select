@@ -32,7 +32,3 @@ It will also add the following CSS to your Cordova application:
         /* transparent highlight color */
         -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     }
-
-## Behavior
-
-- v1.0.1: change CSS to LESS
