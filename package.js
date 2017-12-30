@@ -13,5 +13,5 @@ Package.onUse(function(api) {
         'cordova-plugin-ios-longpress-fix': '1.1.0'
     });
 
-    api.addFiles(['client/cordova-disable-select.css'], 'client');
+    api.addFiles(['client/cordova-disable-select.css'], 'web.cordova');
 });
